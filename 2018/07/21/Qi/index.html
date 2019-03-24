@@ -194,7 +194,7 @@
 <li>Graded homework, exams for Fundamentals of Data and Information Mining course with more than<br>70 students enrolled.</li>
 <li>Produced R programming projects for lab sessions on various data mining topics.</li>
 </ul>
-<p><strong>Research Assistant, Syracuse University</strong>, Dec 2015 – May 2016</p>
+<p><strong>Research Assistant, Syracuse University</strong>, Dec 2015 &#x2013; May 2016</p>
 <ul>
 <li>Collaborated in a group of four people, optimizing community detection algorithms based on graph<br>decomposition methods.</li>
 <li>Implemented efficient analysis algorithms and made lots of experimental studies on a proposed K-core algorithm in Python.</li>
@@ -216,9 +216,27 @@
 <p><strong>Analytical Data Mining Labs</strong>, Sep 2016 - Dec 2016</p>
 <ul>
 <li>Gained and Learned traditional data mining, machine learning and massive datasets mining.</li>
-<li>With Python, programmed streaming algorithms like AMS and Flajolet–Martin, big data methods such as bloom filter, MapReduce.</li>
+<li>With Python, programmed streaming algorithms like AMS and Flajolet&#x2013;Martin, big data methods such as bloom filter, MapReduce.</li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
